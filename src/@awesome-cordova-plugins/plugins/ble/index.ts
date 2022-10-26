@@ -574,7 +574,7 @@ export class BLE extends AwesomeCordovaNativePlugin {
    * // Note, initial promise resolves or rejects depending on whether the subscribe was successful
    * await ble.withPromises.startLocationStateNotifications(success, failure)
    * ```
-   * @returns {Observable<any>} Returns an Observable that notifies when the Bluetooth is enabled or disabled on the device.
+   * @returns {Observable<any>} Returns an Observable that notifies when Location is enabled or disabled on the device.
    */
   @Cordova({
     observable: true,
